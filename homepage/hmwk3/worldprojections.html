@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Projections</title>
+</head>
+<body>
+    <h1> In this homework assignment, I learned how to display images in a variety of projections </h1>
+
+    <h2 style="color:green">How I displayed maps and applied different projections:</h2>
+    <p> Using QGIS, I was able to use the zip file provided to see the world 
+        layed out. Using the QGIS tool for Tissot's Indicatrix, I was also
+        able to apply Tissot's circles to the world map so that I could have 
+        the chance to see how the projections I applied would distort the map. 
+        Then, I browsed QGIS projections and applied various ones and observed the map's 
+        changes and distortions, and was able to download them as PNG files.
+     </p>
+
+     <h2> Pseudo Mercator Projection: 3857 </h2>
+     <h3> My observations: </h3>
+     <p> Commonly used for Google Maps, this projection helps keep direction accurate.
+         The shapes and areas of the continents are heavily distorted at certain parts as a result of keeping 
+         direction conformal. The North and South Poles are very distorted in area, with the South Pole very large in 
+         comparison to the other continents.  </p>
+     <a href="./EPSG3857.png">
+     <img src="./EPSG3857.png" alt="Pseudo Mercator" width='500px'>
+     </a>
+
+     <h2> WGS84 4326 Projection: EPSG 4326 </h2>
+     <h3> My observations: </h3>
+     <p> Since this is the latitude and longitude coordinate system rather than a projection for analysis, it keeps 
+         the distance and area of the continents well conformed. Although it distorts the shape, it overall presents 
+         a clear view of the world laid out so that the locations and shapes of the continents are easy to decipher. </p>
+     <a href="./EPSG4326.png">
+     <img src="./EPSG4326.png" alt="EPSG 4326" width='500px'>
+     </a>
+
+     <h2> Aitoff Projection: 54043 </h2>
+     <h3> My observations: </h3>
+     <p> This projection is azimuthal and projects a spherical view of the world onto a map. This keeps direction conformal 
+         akin to the shape of the globe, but other aspects are then heavily distorted. Shape and area do not appear very 
+         accurately on this projection and is difficult for distance travel use. </p>
+     <a href="./54043.png">
+     <img src="./54043.png" alt="Aitoff" width='500px'>
+     </a>
+
+     <h2> Winkel I Projection: 53018 </h2>
+     <h3> My observations: </h3>
+     <p> For this projection, there is a lot of distortion with distances and directions, but the general shapes and areas 
+         of the continents are less distorted. This map would likely not be very useful for trying to convey the distances 
+         of places from one another. The map appears to bulge out at the equator and there is more elongation and distortion 
+         around the poles than around the equator. </p>
+     <a href="./53018.png">
+     <img src="./53018.png" alt="Winkel I" width='500px'>
+     </a>
+
+     <h2> Equal-Area Cylindrical Projection: 54034 </h2>
+     <h3> My observations: </h3>
+     <p> This projection really elongates the map horizontally and confines it vertically. The distances would be very 
+         distorted for any particular analysis. This map uses a cylindrical projection and is equal-area, so it does conform 
+         to area but distorts a lot of other aspects of mapping.  </p>
+     <a href="./54034.png">
+     <img src="./54034.png" alt="Equal-Area Cylindrical" width='500px'>
+     </a>
+
+     <h2> World Equidistant Conic Projection: 54027 </h2>
+     <h3> My observations: </h3>
+     <p> This map is stated to be conic, but it looks a lot like an azimuthal projection. The map is centered all around 
+         the North pole, so it is hard to distinguish the various countries. The shapes are super distorted and this map 
+         would be very hard to use in every day, general analyses of distances. </p>
+     <a href="./54027.png">
+     <img src="./54027.png" alt="World Equidistant Conic" width='500px'>
+     </a>
+
+     <h2> North Pole Azimuthal Equidistant Projection: 102016 </h2>
+     <h3> My observations: </h3>
+     <p> This projection is also centered around the North Pole like the projection above. However, this one is not conic 
+         because it wraps all the way around to create a 360 degree circular map. The shapes are very distorted, but this 
+         sort of projection could be useful if one did analyses on an area very far North. </p>
+     <a href="./102016.png">
+     <img src="./102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
+     </a>
+
+     <h2> World Sidusoidal: 54008 </h2>
+     <h3> My observations: </h3>
+     <p> This projection causes a bulge around the area of the equator and really stretches out the shapes of continents 
+         towards the South and North polar areas of the globe. There is a lot of distortion North and South, but some 
+         continents are less distorted, like Africa. It looks like directions could be pretty distorted when using this 
+         map to understand the layout of different oceans and areas of land.  </p>
+     <a href="./54008.png">
+     <img src="./54008.png" alt="World Sidusoidal" width='500px'>
+     </a>
+
+     <h2> Van Der Grinten I: 53029 </h2>
+     <h3> My observations: </h3>
+     <p> This projection heavily distorts the size of the South Pole. The map takes an interesting shape, and doesn't 
+         seem to keep many aspects of the Earth conformal. It somewhat resembles the Pseudo Mercator map, but has 
+         differentiating skews as well. </p>
+     <a href="./53029.png">
+     <img src="./53029.png" alt="Van Der Grinten I" width='500px'>
+     </a>
+
+
+
+    
+    <a href="https://www.naturalearthdata.com" >
+        <h2> Data provided for this project </h2>
+    </a>
+    
+
+</body>
+</html>
