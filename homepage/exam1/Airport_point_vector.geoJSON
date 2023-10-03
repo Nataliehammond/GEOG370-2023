@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Airport_point_vector",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::6348" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 1, "label": "Boston Airport" }, "geometry": { "type": "Point", "coordinates": [ 333722.956294393108692, 4692414.59891651570797 ] } }
-]
-}
