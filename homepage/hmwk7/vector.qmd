@@ -1,0 +1,53 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.28.10-Firenze">
+  <identifier>Counties</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Texas - 2020 Census - Counties</title>
+  <abstract>2020 Census, Counties in Texas. A "key" field has been added so data formatted or published by the council can be joined to the shapefile. Additional fields support labeling and cartography in Texas Legislative Council applications.
+
+Texas extract of Counties from the Census Bureau's 2020 Census Redistricting Data (P.L. 94-171) TIGER/Line® shapefile. All legal boundaries and names are as of January 1, 2020. The boundaries shown are for Census Bureau statistical data collection and tabulation purposes only. This digital geographic data is used in the RedAppl and DistrictViewer redistricting applications, and other Texas Legislative Council mapping and reporting applications.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>2020 Census Geography. 2020 Census</keyword>
+    <keyword>Counties</keyword>
+    <keyword>Texas</keyword>
+  </keywords>
+  <contact>
+    <name></name>
+    <organization></organization>
+    <position></position>
+    <voice></voice>
+    <fax></fax>
+    <email></email>
+    <role></role>
+  </contact>
+  <links/>
+  <fees></fees>
+  <constraints type="Limitations of use">No warranty, expressed or implied, is made with regard to the accuracy of the data in the TIGER/Line® Shapefiles, and no liability is assumed by the United States Government in general, or the Census Bureau specifically, as to the positional or attribute accuracy of the data. The boundary information in the TIGER/Line® Shapefiles is for statistical data collection and tabulation purposes only. Their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are not legal land descriptions.
+TIGER/Line® is a registered trademark of the Census Bureau. TIGER/Line® cannot be used as or within the proprietary product names of any commercial product including or otherwise relevant to Census Bureau data and may only be used to refer to the nature of such a product.</constraints>
+  <rights>GIS Staff of the Texas Legislative Council, Research Division, Mapping and Redistricting Section, 512-463-6622, https://redistricting.capitol.texas.gov/contact</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="EPSG:4326" minx="-106.97639499999999657" maxx="-93.12210600000000227" minz="0" maxy="36.53426999999999936" maxz="0" miny="25.70572999999999908" dimensions="2"/>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
