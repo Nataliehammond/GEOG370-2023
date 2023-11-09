@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Eight</title>
+</head>
+<body>
+    <h1> Geoprocessing Analysis on Hawaii </h1>
+    <h2>Natalie Hammond</h2>
+    
+    <h3> My project</h3>
+    <p> 
+       This project is an analysis comparing 'critical habitats' in the state of Hawaii to areas of current or potential development; 
+       the data used for this is agricultural land and enterprise zones. Agricultural land is land used for farming, food production, and the growth of crops.
+       Enterprise zones are areas within a state with more poverty and less job opportunity. As a result, tax incentives and economic policies
+       are often passed within these zones to further development, construction, and provide jobs. This means that while there may only be a certain amount of development there 
+       currently, there are incentives for the state to use funds to build and invest in those areas. Critical habitat zones are areas that necessitate protection and special 
+       management to protect fragile ecosystems or endangered species within that area. These layers of data are the foundation for the project. I compare
+       and cross analyze the overlap of these layers to answer the question if critical habitats in Hawaii are properly protected and separated from current and potential development
+    </p>
+
+    <h2> My question of interest: "How well are critical habitats in Hawaii kept separate and protected from areas of current or potential development?"</h2>
+    <h3> Methods of geoprocessing used: Intersection, Buffer </h3>
+    <h3> Data sets used for analysis: Polygon layer of agriculture zones in Hawaii, Polygon layer of Enterprise Zones in Hawaii,
+        and Polygon layer of consolidated critical habitat zones in Hawaii. I also created a multi-point layer for the names of the Hawaiian islands. 
+        I used Open Street Maps for the base map. 
+    </h3>
+
+
+
+
+    <p> This map shows the areas in Hawaii that contain habitats in critical condition. These are areas that are very important to protect from development 
+        and new infrastructure.
+    </p>
+    <a href="critical habitats only.png">
+        <img src="critical habitats only.png" alt="Areas with Habitats in Critical Condition" width='500px'>
+        </a>
+
+    <p> This map shows the agricultural land in Hawaii.
+    </p>
+    <a href="agricultural land only.png">
+        <img src="agricultural land only.png" alt="Areas being used for agriculture" width='500px'>
+        </a>
+
+    <p> This map shows the enterprise zones in Hawaii.
+    </p>
+    <a href="enterprise zones only.png">
+        <img src="enterprise zones only.png" alt="Areas declared as enterprise zones" width='500px'>
+        </a>
+
+    <p> This map shows the areas in Hawaii where critical habitat zones and agriculture zones overlap. The areas of both layers that did not overlap 
+        are deleted from the map and only the parts of both layers that were in the same places were kept. This shows that critical habitats and agriculture are pretty well separated, 
+        given the minimal overlap visible in the map.
+    </p>
+    <a href="intersection_habitat_agriculture.png">
+        <img src="intersection_habitat_agriculture.png" alt="Intersection of Critical Habitats and Agricultural Land" width='500px'>
+        </a>
+ 
+    <p> The map below shows the overlap of critical habitat zones and enterprise zones. The areas of either layer with no overlap are not visible. 
+        There is more overlap with both zones in this map than in the previous. Enterprise zones do not consider critical habitats as much as developed
+        agriculture has. 
+    </p>
+    <a href="intersect_enterprise_habitat.png">
+        <img src="intersect_enterprise_habitat.png" alt="Intersection of Critical Habitats and Enterprise Zones" width='500px'>
+        </a>
+ 
+    <p> In this map, I added a buffer layer onto the critical habitat layer on a scale of a 0.01 degree buffer.
+        I added this buffer to show how critical habitat zones overlap with enterprise zones and agricultural zones when their boundaries were 
+        extended further. There is more overlap this way, and this could be a problem if the critical habitats and ecosystems are not completely confined to the measured zones.
+        Development in Hawaii seems to ride very closely to the areas that need to be protected, and so it could mean that the developed areas still affect the habitats. For example,
+        through polluted air, runoff water, tourism, and more, damage could be done to nearby habitats if development is too close. The buffer was added to represent how quickly these zones
+        can encroach on one another, and this buffer could represent how habitats can grow into developed areas or how the effects of development could extend further than the boundaries where 
+        it cuts off. 
+    </p>
+    <a href="buffered_habitats_over_workzones.png">
+        <img src="buffered_habitats_over_workzones.png" alt="Adding a 0.01 degree buffer on critical habitat zones" width='500px'>
+        </a>
+        
+    <a href="https://geoportal.hawaii.gov/" >
+        <h2> The link to the data used in this project </h2>
+    </a>
+    <a href="     " >
+        <h2> The link to my vector data </h2>
+    </a>
